@@ -1,0 +1,10 @@
+# -*- coding: 
+a=int(input('Digite seu valor inteiro'))
+if (a> 24) or (a<0):
+   pass
+elif a >= 18:
+    print('As luzes estão acessas')
+elif a <= 5:
+    print('As luzes estão acessas na madrugada')
+else: 
+    print('as luzes estao apagadas')
