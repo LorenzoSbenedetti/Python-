@@ -1,0 +1,6 @@
+a = int(input('Digite o número desejado '))
+i=0
+lista=[]
+for i in range(10):
+    lista.append((i+1)*a)
+print (lista)
