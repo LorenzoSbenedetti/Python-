@@ -1,0 +1,16 @@
+# -*- coding: 
+a=int(input('Digite o valor do número A :  '))
+b=int(input('Digite o valor do número B :  '))
+if a> b:
+    maior = a
+    menor = b
+elif a == b:
+    print('Os valores são iguais')
+    maior = 0
+    menor = 0
+    input()
+    exit()
+else :
+    maior = b
+    menor = a
+print('O valor maior  e {} e o valor menor é {}'.format(maior,menor))
